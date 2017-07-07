@@ -5,14 +5,17 @@ The AppiumAppMenuTest repo has the following dependencies in the pom.xml file:
 Using Maven 3.3.9
 Using Java jdk1.8.0_102.jdk
 
-Follow instructions to build Appium from source:
-cd appium
-npm install
-gulp transpile # requires gulp, see below
-npm install -g authorize-ios # for ios only
-authorize-ios                # for ios only
+To Run Test:
+- Follow instructions to build Appium from source:
+-- cd appium
+-- npm install
+-- gulp transpile # requires gulp, see below
+-- npm install -g authorize-ios # for ios only
+-- authorize-ios                # for ios only
 
-Run the test using the RunCukesTest class in src/test/java/stepDefinitions.
+- Add app to iOSApps dir
+
+- Run the test using the RunCukesTest class in src/test/java/stepDefinitions.
 
 AppMenu Test: 
 src/test/java/stepDefinitions/AppMenu.java
